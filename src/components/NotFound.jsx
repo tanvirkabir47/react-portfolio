@@ -1,8 +1,9 @@
+import NotFoundHero from './NotFoundHero'
 
 const NotFound = () => {
     return (
         <div>
-            <h2>Not Fount</h2>
+            <NotFoundHero />
         </div>
     );
 };

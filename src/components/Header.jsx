@@ -9,7 +9,7 @@ const Header = () => {
     const [menubtn, setMenuBtn] = useState(false);
 
     window.addEventListener("scroll", () =>{
-        if(window.scrollY > 100){
+        if(window.scrollY > 50){
             setIsSticky(true);
         }else{
             setIsSticky(false);

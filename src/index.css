@@ -119,13 +119,29 @@ header.sticky{
 
 .hero-section{
     background-image: url(../src/assets/Polygon.svg);
-    padding: 150px 0;
+    padding: 200px 0;
     padding-top: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+.hero-section-not{
+    background-image: url(../src/assets/Hexagon.svg);
+    padding: 200px 0;
+    padding-top: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-section-not h6{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .hero-content{
     color: #fff;
     max-width: 700px;
