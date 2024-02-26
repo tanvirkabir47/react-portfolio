@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
     font-family: 'Inter', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Garamond", serif
 }
 .container{
     margin: auto;
@@ -17,11 +27,12 @@ img{
 :root{
     --primary-color: #0A77FF;
     --secondary-color: #181A2A;
+    --bg-color: #2a2c39;
 }
 header{
-    padding: 10px 0;
+    padding: 25px 0;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
     transition: .5s;
     position: fixed;
     top: 0;
@@ -30,7 +41,7 @@ header{
     background: transparent;
 }
 header.sticky{
-    padding: 5px 0;
+    padding: 10px 0;
     width: 100%;
     position: fixed;
     top: 0;
@@ -41,16 +52,15 @@ header.sticky{
     transition: .5s;
 }
 .header-logo h1{
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
-    color: #fff;
     font-weight: 600;
 }
 .sticky .header-logo h1{
     color: var(--secondary-color);
 }
 .menu-items ul li a{
-    color: #fff;
+    color: #858792;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -58,7 +68,19 @@ header.sticky{
     transition: .2s;
     padding: 2px 0;
 }
+.menu-items ul li a:hover{
+    color: #fff;
+}
 .sticky ul li a{
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    transition: .2s;
+    padding: 2px 0;
+}
+.sticky ul li a:hover{
     color: var(--secondary-color);
     font-size: 18px;
     font-weight: 500;
@@ -96,11 +118,13 @@ header.sticky{
 }
 
 .hero-section{
-    background-image: url(./assets/banner-home.png);
+    background-image: url(../src/assets/Polygon.svg);
     padding: 150px 0;
+    padding-top: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .hero-content{
     color: #fff;
@@ -108,11 +132,11 @@ header.sticky{
     width: 100%;
 }
 .hero-content h2{
-    font-size: 35px;
+    font-size: 60px;
     font-weight:500;
 }
 .hero-content h1{
-    font-size: 72px;
+    font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -128,6 +152,7 @@ header.sticky{
 
 .banner-img{
     width: 100%;
+    display: none;
 }
 .banner-img img{
     border-radius: 50%;
@@ -143,6 +168,23 @@ header.sticky .menu-cl{
     color: var(--secondary-color);
 }
 
+.hire-me-head a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    border: 1px solid #3b3d49;
+    transition: all .5s ease;
+    padding: 15px 40px;
+    border-radius: 32.5px;
+    font-weight: 500;
+}
+.sticky .hire-me-head a{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
 
 
 @media only screen and (max-width: 767px){
@@ -151,11 +193,13 @@ header.sticky .menu-cl{
         top: 0;
         flex-direction: column;
         background: #fff;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         color: var(--secondary-color);
         transition: .5s;
         padding: 50px;
+        padding-top: 100px;
+        z-index: -1;
     }
     .maenu-res li a{
         color: var(--secondary-color) !important;
@@ -176,6 +220,9 @@ header.sticky .menu-cl{
     .menu-items ul li a.active{
         border-bottom: 2px solid var(--primary-color);
         color: var(--primary-color);
+    }
+    .header-logo h1{
+        font-size: 40px;
     }
 
 }
