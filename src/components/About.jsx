@@ -1,4 +1,4 @@
-import Hero from './Hero';
+import Hero from './HeroComponents/Hero';
 
 const About = () => {
     return (
@@ -8,6 +8,7 @@ const About = () => {
                 <div className="container">
                     <div className="">
                         <h2>About</h2>
+                        
                     </div>
                 </div>
             </section>

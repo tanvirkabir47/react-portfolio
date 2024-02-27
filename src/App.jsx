@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import NotFound from "./components/NotFound";
 import About from './components/About';
+import BackToTop from "./components/BackToTop";
+import Services from "./components/pages/Services";
 
 function App() {
 
@@ -12,8 +14,11 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services/>} />
           <Route path="*" element={<NotFound />} />
       </Routes>
+
+      <BackToTop/> 
     </>
   )
 }

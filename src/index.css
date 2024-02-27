@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -135,7 +139,16 @@ header.sticky{
     background-size: cover;
     position: relative;
 }
-.hero-section-not h6{
+.hero-section-service{
+    background-image: url(../src/assets/Hexagon.svg);
+    padding: 200px 0;
+    padding-top: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-section-not h6, .hero-section-service h1{
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
@@ -201,6 +214,14 @@ header.sticky .menu-cl{
     border: 1px solid var(--secondary-color);
 }
 
+.backtotop-btn{
+    background: #2041ca;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
 
 
 @media only screen and (max-width: 767px){
@@ -239,6 +260,10 @@ header.sticky .menu-cl{
     }
     .header-logo h1{
         font-size: 40px;
+    }
+    .backtotop-btn{
+        bottom: 20px;
+        right: 20px;
     }
 
 }

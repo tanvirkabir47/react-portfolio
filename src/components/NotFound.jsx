@@ -1,4 +1,4 @@
-import NotFoundHero from './NotFoundHero'
+import NotFoundHero from './HeroComponents/NotFoundHero'
 
 const NotFound = () => {
     return (

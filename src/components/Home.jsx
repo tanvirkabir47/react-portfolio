@@ -1,9 +1,12 @@
-import Hero from './Hero';
+import Hero from "./HeroComponents/Hero"
+import ServiceSec from "./ServiceSec";
 
 const Home = () => {
     return (
         <>
-            <Hero />
+            <Hero/>
+            
+            <ServiceSec/>
         </>
     )};
 

@@ -39,7 +39,7 @@ const Header = () => {
                                 <NavLink to='/about' onClick={()=> setMenuBtn(!menubtn)}>About</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/service' onClick={()=> setMenuBtn(!menubtn)}>Services</NavLink>
+                                <NavLink to='/services' onClick={()=> setMenuBtn(!menubtn)}>Services</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/skill' onClick={()=> setMenuBtn(!menubtn)}>Skill</NavLink>
