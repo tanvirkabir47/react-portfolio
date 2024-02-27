@@ -20,6 +20,9 @@ h5,
 h6 {
     font-family: "Cormorant Garamond", serif
 }
+.section-padding{
+    padding: 50px 0;
+}
 .container{
     margin: auto;
     max-width: 1280px;

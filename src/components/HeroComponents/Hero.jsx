@@ -1,5 +1,4 @@
 import bannerImg from '../../assets/profile-1.png'
-import ServiceSec from '../ServiceSec';
 
 const Home = () => {
     return (
@@ -20,8 +19,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-            <ServiceSec/>
         </>
     );
 };

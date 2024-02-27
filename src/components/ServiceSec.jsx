@@ -1,7 +1,7 @@
 
 const ServiceSec = () => {
     return (
-        <section>
+        <section className="section-padding">
             <div className="container">
                 <div className="my_services">
                     <p>|| My Services</p>
