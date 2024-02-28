@@ -5,6 +5,7 @@ import NotFound from "./components/NotFound";
 import About from './components/About';
 import BackToTop from "./components/BackToTop";
 import Services from "./components/pages/Services";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       </Routes>
 
       <BackToTop/> 
+      <Footer/>
     </>
   )
 }
