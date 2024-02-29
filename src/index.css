@@ -38,7 +38,7 @@ h6 {
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--primary-color);
 }
 img{
     width: 100%;
@@ -47,6 +47,7 @@ img{
     --primary-color: #023A62;
     --secondary-color: #101828;
     --paragraph-color: #455468;
+    --bg-color: #E6EBEF;
 }
 header{
     padding: 25px 0;
@@ -147,7 +148,7 @@ header.sticky{
     position: relative;
 }
 .hero-section-not{
-    background-image: url(../src/assets/Hexagon.svg);
+    background-image: url(../src/assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
@@ -156,7 +157,7 @@ header.sticky{
     position: relative;
 }
 .hero-section-service{
-    background-image: url(../src/assets/Hexagon.svg);
+    background-image: url(../src/assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
@@ -165,19 +166,13 @@ header.sticky{
     position: relative;
 }
 .hero-section-about{
-    background-image: url(../src/assets/about-bg.svg);
+    background-image: url(../src/assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-.hero-section-not h6{
-    font-size: 80px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
 }
 
 .hero-content{
@@ -289,14 +284,15 @@ header .menu-cl{
 .footer{
     padding: 30px 0;
     border-top: 1px solid rgba(255, 255, 255, .1);
+    background: var(--bg-color);
 }
 .footer p{
-    color: #858792;
+    color: var(--secondary-color);
     text-align: center;
     font-size: 18px;
 }
 .footer p a{
-    color: #fff;
+    color: var(--primary-color);
     text-align: center;
     font-size: 18px;
 }
