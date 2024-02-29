@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaAnglesRight } from "react-icons/fa6";
 
+import logoImg from '../assets/icons/logo.svg';
+
 const Header = () => {
 
     const [isSticky, setIsSticky] = useState(false);
@@ -20,13 +22,15 @@ const Header = () => {
         <header className={ isSticky ? "sticky" : "" }>
             <div className="container">
                 <div className="flex justify-between items-center">
-                    <div className="header-logo flex justify-between items-center w-full md:w-0">
+                    <div className="header-logo flex justify-between items-center w-full md:w-auto">
                         <NavLink to='/'>
-                            <h1 className={menubtn ? "text-black md:text-white" : "text-white"}>Tanvir</h1>
+                            <h1>
+                                <img className="w-[120px] md:w-[150px]" src={logoImg} alt="" />
+                            </h1>
                         </NavLink>
                         <div onClick={()=> setMenuBtn(!menubtn)} className="menu-cl"> 
                                 {
-                                    menubtn ? <FaTimes className={`md:hidden ${menubtn ? 'text-black' : 'te'}`} /> : <FaBars className="md:hidden" />
+                                    menubtn ? <FaTimes className={`md:hidden ${menubtn ? 'text-[--primary-color]' : ''}`} /> : <FaBars className="md:hidden" />
                                 }
                         </div>
                     </div>

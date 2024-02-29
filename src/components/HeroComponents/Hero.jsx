@@ -1,4 +1,4 @@
-import bannerImg from '../../assets/profile-1.png'
+import bannerImg from '../../assets/profile-1.jpeg'
 
 const Home = () => {
     return (
