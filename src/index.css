@@ -49,6 +49,17 @@ img{
     --paragraph-color: #455468;
     --bg-color: #E6EBEF;
 }
+.primary-btn{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 32.5px;
+    font-weight: 500;
+    background: var(--primary-color);
+}
 header{
     padding: 25px 0;
     width: 100%;
@@ -61,7 +72,7 @@ header{
     background: transparent;
 }
 header.sticky{
-    padding: 10px 0;
+    padding: 15px 0;
     width: 100%;
     position: fixed;
     top: 0;
@@ -92,33 +103,8 @@ header.sticky{
 .menu-items ul li a:hover{
     color: var(--primary-color);
 }
-.sticky ul li a{
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    transition: .2s;
-    padding: 2px 0;
-}
-.sticky ul li a:hover{
-    color: var(--primary-color);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    transition: .2s;
-    padding: 2px 0;
-}
+
 .menu-items ul li a::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: var(--primary-color);
-    transition: width .3s ease-in;
-}
-.sticky ul li a::after{
     content: '';
     display: block;
     width: 0;
@@ -130,11 +116,7 @@ header.sticky{
     width: 100%;
 }
 .menu-items ul li a.active{
-    border-bottom: 2px solid var(--primary-color);
-    color: var(--primary-color);
-}
-.sticky ul li a.active{
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
     color: var(--primary-color);
 }
 
@@ -155,6 +137,11 @@ header.sticky{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.hero-section-not img{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .hero-section-service{
     background-image: url(../src/assets/hero-bg.png);
@@ -217,19 +204,6 @@ header .menu-cl{
     font-size: 25px;
     font-weight: 400;
     color: var(--primary-color);
-}
-
-.hire-me-head a{
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    border: 1px solid var(--primary-color);
-    transition: all .5s ease;
-    padding: 15px 40px;
-    border-radius: 32.5px;
-    font-weight: 500;
 }
 
 .backtotop-btn{
@@ -295,6 +269,8 @@ header .menu-cl{
     color: var(--primary-color);
     text-align: center;
     font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 
@@ -320,6 +296,21 @@ header .menu-cl{
     color: #fff;
     margin-top: 25px;
     width: fit-content;
+}
+
+.social-links-com{
+    position: fixed;
+    left: 20px;
+    top: 40%;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    padding: 20px 10px;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+}
+.social-links-com ul li{
+    font-size: 25px;
+    margin: 15px 0;
 }
 
 @media only screen and (max-width: 767px){

@@ -7,6 +7,7 @@ import BackToTop from "./components/BackToTop";
 import Services from "./components/pages/Services";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import SocialLink from "./components/SocialLink";
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
           <Route path="*" element={<NotFound />} />
       </Routes>
 
-      <BackToTop/> 
+      <BackToTop/>
+      <SocialLink/>
       <Footer/>
     </>
   )

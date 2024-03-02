@@ -57,7 +57,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="hire-me-head hidden md:block">
-                        <NavLink to='/contact'>Hire Me <FaAnglesRight /></NavLink>
+                        <NavLink to='/contact' className="primary-btn">Hire Me <FaAnglesRight /></NavLink>
                     </div>
                 </div>
             </div>
