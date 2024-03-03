@@ -21,7 +21,7 @@ h6 {
     /* font-family: "Cormorant Garamond", serif; */
 }
 .section-padding{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .section-title{
     font-size: 70px;
@@ -193,7 +193,7 @@ header.sticky{
     display: flex;
     justify-content: flex-end;
 }
-.banner-img img{
+.banner-img img, .about-img img{
     border-radius: 18px;
     border: 2px solid var(--primary-color);
     width: 100%;
@@ -313,7 +313,74 @@ header .menu-cl{
     margin: 15px 0;
 }
 
+.skillbar-bg{
+    background: #fff;
+    margin: 15px 0;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    position: relative;
+  }
+.skills p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .html {width: 95%; background-color: var(--primary-color);}
+  .css {width: 90%; background-color: #39A7FF;}
+  .js {width: 65%; background-color: #F1C93B;}
+  .react {width: 50%; background-color: #087ea4;
+}
+.skill-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+.skill-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.about-text h2{
+    color: var(--primary-color);
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: var(--secondary-color);
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.about-text p{
+    color: var(--paragraph-color);
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .about-text h2{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+}
 @media only screen and (max-width: 767px){
+    .section-padding{
+        padding: 60px 0;
+    }
     .maenu-res{
         position: fixed;
         top: 0;
@@ -361,5 +428,22 @@ header .menu-cl{
     .section-hero-title{
         font-size: 55px !important;
     }
+    .skill-text h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .skill-text p{
+        text-align: justify;
+    }
+    .about-text h2 {
+        font-size: 42px;
+        margin-bottom: 10px;
+        line-height: 60px;
+    }
+    .about-text h4 {
+        font-size: 26px;
+    }
+
 
 }
+

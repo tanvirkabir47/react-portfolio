@@ -8,6 +8,7 @@ import Services from "./components/pages/Services";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import SocialLink from "./components/SocialLink";
+import Skills from "./components/pages/Skills";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/skills" element={<Skills/>} />
           <Route path="*" element={<NotFound />} />
       </Routes>
 
