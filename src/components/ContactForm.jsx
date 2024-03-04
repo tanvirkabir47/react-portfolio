@@ -2,8 +2,6 @@
 import { useRef, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-// import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -12,7 +10,7 @@ const ContactForm = () => {
     
     const [showMessage, setShowMessage] = useState(false);
 
-    const notify = () => toast.success("Thanks for contact me!");
+    const notify = () => toast.success("Message sent successfully!");
     const form = useRef();
     const handleSubmit = (e) => {
         e.preventDefault();
