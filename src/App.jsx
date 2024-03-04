@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import SocialLink from "./components/SocialLink";
 import Skills from "./components/pages/Skills";
+import ContactPage from "./components/pages/ContactPage";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services/>} />
           <Route path="/skills" element={<Skills/>} />
+          <Route path="/contact" element={<ContactPage/>} />
           <Route path="*" element={<NotFound />} />
       </Routes>
 

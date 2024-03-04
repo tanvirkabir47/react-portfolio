@@ -1,4 +1,4 @@
-import AboutMainSec from "./AboutMainSec";
+import ContactForm from "./ContactForm";
 import Hero from "./HeroComponents/Hero"
 import ServiceSec from "./ServiceSec";
 import Skils from "./Skils";
@@ -9,7 +9,7 @@ const Home = () => {
             <Hero/>
             <ServiceSec/>
             <Skils/>
-            <AboutMainSec/>
+            <ContactForm/>
         </>
     )};
 
