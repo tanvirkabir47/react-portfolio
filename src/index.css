@@ -449,6 +449,38 @@ header .menu-cl{
     font-weight: 600;
 }
 
+.customr_cursor{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--primary-color);
+    position: fixed;
+    z-index: 9999999999;
+    border-radius: 50%;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnimation .5s infinite alternate;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.customr_cursor::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: var(--primary-color);
+    position: fixed;
+    border-radius: 50%;
+    left: 9px;
+    top: 9px;
+}
+
+@keyframes cursorAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
 
 
 
