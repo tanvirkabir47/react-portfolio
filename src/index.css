@@ -460,6 +460,7 @@ header .menu-cl{
     transition-timing-function: ease-out;
     animation: cursorAnimation .5s infinite alternate;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    pointer-events: none;
 }
 .customr_cursor::after{
     content: '';
