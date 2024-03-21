@@ -10,13 +10,11 @@ import ScrollToTop from "./components/ScrollToTop";
 import SocialLink from "./components/SocialLink";
 import Skills from "./components/pages/Skills";
 import ContactPage from "./components/pages/ContactPage";
-import CustomeCursor from "./components/CustomeCursor";
 
 function App() {
 
   return (
     <>
-    <CustomeCursor/>
       <Header />
       <ScrollToTop/>
       <Routes>
