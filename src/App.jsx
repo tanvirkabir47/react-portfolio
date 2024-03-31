@@ -14,7 +14,7 @@ import ContactPage from "./components/pages/ContactPage";
 function App() {
 
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Header />
       <ScrollToTop/>
       <Routes>
@@ -30,7 +30,7 @@ function App() {
       <BackToTop/>
       <SocialLink/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

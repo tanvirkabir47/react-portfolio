@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import AboutImg from '../assets/about-img.png'
-const AboutMainSec = () => {
+
+const AboutHome = () => {
     return (
-        <section className="section-padding my-10">
+        <section className="section-padding mb-10 mt-0">
             <div className="container">
+                <h1 className="section-title pb-5 text-center">Who I am ?</h1>
                 <div className="flex gap-10 items-center flex-col md:flex-row w-full">
                     <div className="md:w-1/2 w-full">
                         <div className="about-img flex md:justify-start justify-center">
@@ -21,4 +23,4 @@ const AboutMainSec = () => {
     );
 };
 
-export default AboutMainSec;
+export default AboutHome;
