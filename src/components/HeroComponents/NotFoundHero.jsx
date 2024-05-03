@@ -5,7 +5,7 @@ import { FaAngleDoubleLeft } from "react-icons/fa";
 const Home = () => {
     return (
         <>
-            <section className="hero-section-not h-full">
+            <section className="hero-section-not">
                 <div className="container">
                     <div className="">
                         <img src={NotFoutImg} alt="" />
