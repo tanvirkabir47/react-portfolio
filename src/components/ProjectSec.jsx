@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom';
 import xemblogImg from '../assets/projects/xemblog-django.png'
 import carMatImg from '../assets/projects/carmatkings-co-uk.png'
 import bdMapImg from '../assets/projects/bangladesh-location.png'
+import MapImg from '../assets/projects/meinwunschgarten.png'
+import bookImg from '../assets/projects/digilangua-co.png'
+import taaplyImg from '../assets/projects/taaply-net.png'
 
 const ProjectSec = () => {
     return (
@@ -65,6 +68,68 @@ const ProjectSec = () => {
                                             <li>Redux</li>
                                             <li>Tailwind CSS</li>
                                             <li>Django REST Framework (DRF API)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="single-project">
+                                <div className="project-img">
+                                    <img src={MapImg} alt="" />
+                                </div>
+                                <div className="project-details">
+                                    <h2>
+                                        <NavLink to="https://meinwunschgarten.com/" target="_blank"> Mein Wunschgarten </NavLink>
+                                    </h2>
+                                    <p>"Mein WunschGarten" is a German gardening website where users can find inspiration, advice, and products for their dream gardens. As a frontend developer, I helped create a user-friendly interface, making the site visually appealing and easy to navigate. My role was crucial in enhancing the overall user experience and ensuring compatibility across devices and browsers.</p>
+                                    <div className='technology-used mt-4'>
+                                        <h3>Technologies Used:</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Django</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="single-project">
+                                <div className="project-img">
+                                    <img src={taaplyImg} alt="" />
+                                </div>
+                                <div className="project-details">
+                                    <h2>
+                                        <NavLink to="https://taaply.net/" target="_blank"> Taaply - The Future of QR Codes</NavLink>
+                                    </h2>
+                                    <p>"At Taaply, specialists harness innovative technology, seeing QR codes as bridges between physical and digital realms. The platform offers secure, customizable options and an enhanced user experience. Analytics make managing QR codes simple via the personalized back-office. Whether personal or business, Taaply empowers users to create and manage QR codes effortlessly, unlocking digital potential."</p>
+                                    <div className='technology-used mt-4'>
+                                        <h3>Technologies Used:</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Django</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="single-project">
+                                <div className="project-img">
+                                    <img src={bookImg} alt="" />
+                                </div>
+                                <div className="project-details">
+                                    <h2>
+                                        <NavLink to="https://digilangua.co/" target="_blank"> Digilangua - An E-Learning Reading site your students will love. </NavLink>
+                                    </h2>
+                                    <p>"DigiLangua" is a vibrant online hub for language learning, where users dive into engaging activities and lessons to improve their linguistic abilities. My role as a frontend developer was instrumental in shaping the website's look and feel, making it easy to navigate and use across different devices. <br /> [Design: Client Requirments]</p>
+                                    <div className='technology-used mt-4'>
+                                        <h3>Technologies Used:</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Django</li>
                                         </ul>
                                     </div>
                                 </div>

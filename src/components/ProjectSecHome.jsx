@@ -75,6 +75,10 @@ const ProjectSecHome = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className='flex justify-end'>
+                        <NavLink to="/projects" className="underline font-semibold text-[15px]">View All Projects</NavLink>
+                    </div>
                 </div>
             </div>
         </div>
