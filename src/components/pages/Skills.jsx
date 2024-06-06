@@ -1,6 +1,6 @@
 import SkillHero from "../HeroComponents/SkillHero";
 import { FaDownload } from "react-icons/fa";
-import Resume from '../../assets/file/download-cv.pdf'
+import Resume from '../../assets/file/Tanvir_frontend.pdf'
 const Skills = () => {
     return (
         <div>
