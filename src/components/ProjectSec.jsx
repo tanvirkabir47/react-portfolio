@@ -13,8 +13,11 @@ const ProjectSec = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
+                        <div>
+                            <h2 className='text-[25px] font-semibold text-[--primary-color]'>Backend Project (Full-stack):</h2>
+                        </div>
                         <div className="project-sec-main">
-                            <div className="single-project">
+                            <div className="single-project max-w-[390px]">
                                 <div className="project-img">
                                     <img src={xemblogImg} alt="" />
                                 </div>
@@ -33,6 +36,34 @@ const ProjectSec = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="single-project">
+                                <div className="project-img">
+                                    <img src={taaplyImg} alt="" />
+                                </div>
+                                <div className="project-details">
+                                    <h2>
+                                        <NavLink to="https://taaply.net/" target="_blank"> Taaply - The Future of QR Codes</NavLink>
+                                    </h2>
+                                    <p>"At Taaply, specialists harness innovative technology, seeing QR codes as bridges between physical and digital realms. The platform offers secure, customizable options and an enhanced user experience. Analytics make managing QR codes simple via the personalized back-office. Whether personal or business, Taaply empowers users to create and manage QR codes effortlessly, unlocking digital potential."</p>
+                                    <div className='technology-used mt-4'>
+                                        <h3>Technologies Used:</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>Django</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='mt-[50px]'>
+                            <h2 className='text-[25px] font-semibold text-[--primary-color]'>Frontend Project:</h2>
+                        </div>
+                        <div className="project-sec-main">
                             <div className="single-project">
                                 <div className="project-img">
                                     <img src={carMatImg} alt="" />
@@ -81,27 +112,6 @@ const ProjectSec = () => {
                                         <NavLink to="https://meinwunschgarten.com/" target="_blank"> Mein Wunschgarten </NavLink>
                                     </h2>
                                     <p>"Mein WunschGarten" is a German gardening website where users can find inspiration, advice, and products for their dream gardens. As a frontend developer, I helped create a user-friendly interface, making the site visually appealing and easy to navigate. My role was crucial in enhancing the overall user experience and ensuring compatibility across devices and browsers.</p>
-                                    <div className='technology-used mt-4'>
-                                        <h3>Technologies Used:</h3>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>JavaScript</li>
-                                            <li>Django</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="single-project">
-                                <div className="project-img">
-                                    <img src={taaplyImg} alt="" />
-                                </div>
-                                <div className="project-details">
-                                    <h2>
-                                        <NavLink to="https://taaply.net/" target="_blank"> Taaply - The Future of QR Codes</NavLink>
-                                    </h2>
-                                    <p>"At Taaply, specialists harness innovative technology, seeing QR codes as bridges between physical and digital realms. The platform offers secure, customizable options and an enhanced user experience. Analytics make managing QR codes simple via the personalized back-office. Whether personal or business, Taaply empowers users to create and manage QR codes effortlessly, unlocking digital potential."</p>
                                     <div className='technology-used mt-4'>
                                         <h3>Technologies Used:</h3>
                                         <ul>

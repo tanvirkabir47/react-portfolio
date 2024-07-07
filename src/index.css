@@ -461,6 +461,7 @@ header .menu-cl{
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
+    max-width: 390px;
 }
 .single-project .project-img{
     width: 100%;
