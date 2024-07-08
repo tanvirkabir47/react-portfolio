@@ -11,6 +11,7 @@ import SocialLink from "./components/SocialLink";
 import Skills from "./components/pages/Skills";
 import ContactPage from "./components/pages/ContactPage";
 import Project from "./components/pages/Project";
+import SingleProject from "./components/pages/SingleProject";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/project/:slug" element={<SingleProject />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services/>} />
           <Route path="/skills" element={<Skills/>} />
