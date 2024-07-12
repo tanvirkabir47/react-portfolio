@@ -549,9 +549,11 @@ header .menu-cl{
     font-weight: 600;
     font-size: 18px;
     padding-right: 15px;
+    word-break: break-all;
 }
 .project-details-main .project-head .project-image{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .project-details-main .project-head .project-image img{
