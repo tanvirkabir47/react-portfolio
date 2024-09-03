@@ -12,7 +12,7 @@ const Skils = () => {
                         <div className="skill-text">
                             <p>|| Special Skills</p>
                             <h2>My Special Skill Field Here.</h2>
-                            <p>A self-motivated, energetic, and passionate professional web Development with valuable experience in HTML, CSS, JavaScript and Laravel. I enjoy turning complex problems into simple, beautiful, and intuitive interface designs.</p>
+                            <p>A self-motivated, energetic, and passionate professional web Development with valuable experience in HTML, CSS, JavaScript, Python and Django. I enjoy turning complex problems into simple, beautiful, and intuitive interface designs and develop.</p>
                             <a href={Resume} download className="primary-btn w-[fit-content] mt-5">Get Resume <FaDownload /></a>
                         </div>
                     </div>
@@ -31,9 +31,16 @@ const Skils = () => {
                         </div>
 
                         <div className="skillbar-bg">
-                            <div className="skills react"><p>React JS</p>50%</div>
-                            
-                        </div>
+                                <div className="skills react"><p>React JS</p>20%</div>
+                            </div>
+
+                            <div className="skillbar-bg">
+                                <div className="skills python"><p>Python</p>30%</div>
+                            </div>
+
+                            <div className="skillbar-bg">
+                                <div className="skills django"><p>Django</p>70%</div>
+                            </div>
                     </div>
                 </div>
             </div>

@@ -239,7 +239,7 @@ header .menu-cl{
     margin: 20px auto;
 }
 .single-service-card{
-    padding: 70px;
+    padding: 50px;
     background: var(--primary-color);
     color: #fff;
     border-radius: 18px;
@@ -324,12 +324,12 @@ header .menu-cl{
 
 .skillbar-bg{
     background: #fff;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
     position: relative;
   }
@@ -345,8 +345,10 @@ header .menu-cl{
   .html {width: 95%; background-color: var(--primary-color);}
   .css {width: 90%; background-color: #39A7FF;}
   .js {width: 65%; background-color: #F1C93B;}
-  .react {width: 50%; background-color: #087ea4;
-}
+  .react {width: 40%; background-color: #087ea4;}
+  .python {width: 45%; background-color: #4584b6;}
+  .django {width: 70%; background-color: #103e2e;}
+
 .skill-text p{
     font-size: 18px;
     font-weight: 400;

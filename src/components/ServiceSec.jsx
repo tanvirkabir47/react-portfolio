@@ -22,33 +22,34 @@ const ServiceSec = () => {
                                 <li><FaAngleDoubleRight /> User Flow</li>
                                 <li><FaAngleDoubleRight /> Wireframing</li>
                                 <li><FaAngleDoubleRight /> Prototyping</li>
+                                <li><FaAngleDoubleRight /> Admin Panel</li>
                                 <li><FaAngleDoubleRight /> Mobile App Design</li>
-                            </ul>
-                        </div>
-                        <div className="single-service-card">
-                            <img src={serviceImg2} alt="" />
-                            <h2>
-                                <NavLink to="/services">Development</NavLink>
-                            </h2>
-                            <ul>
-                                <li><FaAngleDoubleRight /> HTML/CSS</li>
-                                <li><FaAngleDoubleRight /> JavaScript</li>
-                                <li><FaAngleDoubleRight /> Animation</li>
-                                <li><FaAngleDoubleRight /> React</li>
-                                <li><FaAngleDoubleRight /> Responsive</li>
                             </ul>
                         </div>
                         <div className="single-service-card">
                             <img src={serviceImg1} alt="" />
                             <h2>
-                            <NavLink to="/services">Illustration</NavLink>
+                                <NavLink to="/services">Front-End Development</NavLink>
                             </h2>
                             <ul>
-                                <li><FaAngleDoubleRight /> Character Design</li>
-                                <li><FaAngleDoubleRight /> Icon Set</li>
-                                <li><FaAngleDoubleRight /> Illustration Set</li>
-                                <li><FaAngleDoubleRight /> Illustration Guide</li>
-                                <li><FaAngleDoubleRight /> Motion Graphic</li>
+                                <li><FaAngleDoubleRight /> HTML/CSS</li>
+                                <li><FaAngleDoubleRight /> JavaScript</li>
+                                <li><FaAngleDoubleRight /> Bootstrap 5</li>
+                                <li><FaAngleDoubleRight /> Tailwind CSS</li>
+                                <li><FaAngleDoubleRight /> React JS</li>
+                            </ul>
+                        </div>
+                        <div className="single-service-card">
+                            <img src={serviceImg2} alt="" />
+                            <h2>
+                            <NavLink to="/services">Back-End Development</NavLink>
+                            </h2>
+                            <ul>
+                                <li><FaAngleDoubleRight /> Python</li>
+                                <li><FaAngleDoubleRight /> Djanog</li>
+                                <li><FaAngleDoubleRight /> Django REST framwork (DRF)</li>
+                                <li><FaAngleDoubleRight /> Sqlite, PostgreSQL (DB)</li>
+                                <li><FaAngleDoubleRight /> AWS (Cloud Management)</li>
                             </ul>
                         </div>
                     </div>

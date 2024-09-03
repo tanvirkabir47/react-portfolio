@@ -14,8 +14,8 @@ const AboutHome = () => {
                     </div>
                     <div className="md:w-1/2 w-full about-text">
                         <h2 className=''>I'm Tanvir Kabir</h2>
-                        <h4>Front-End Web developer specializing in React JS.</h4>
-                        <p>A self-motivated, energetic, and passionate professional web Development with valuable experience in HTML, CSS, JavaScript and React JS. I enjoy turning complex problems into simple, beautiful, and intuitive interface designs.</p>
+                        <h4>Full-Stack Web developer specializing in Python Django.</h4>
+                        <p>A self-motivated, energetic, and passionate professional web Development with valuable experience in HTML, CSS, JavaScript, Python and Django. I enjoy turning complex problems into simple, beautiful, and intuitive interface designs and develop.</p>
                     </div>
                 </div>
             </div>

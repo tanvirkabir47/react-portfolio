@@ -32,8 +32,15 @@ const Skills = () => {
                             </div>
 
                             <div className="skillbar-bg">
-                                <div className="skills react"><p>React JS</p>50%</div>
-                                
+                                <div className="skills react"><p>React JS</p>20%</div>
+                            </div>
+
+                            <div className="skillbar-bg">
+                                <div className="skills python"><p>Python</p>30%</div>
+                            </div>
+
+                            <div className="skillbar-bg">
+                                <div className="skills django"><p>Django</p>70%</div>
                             </div>
                         </div>
                     </div>
