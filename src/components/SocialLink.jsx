@@ -9,7 +9,7 @@ const SocialLink = () => {
                     <a href="https://www.facebook.com/tanvirkabir47/" title="Facebook" target="_blank"><FaFacebookSquare /></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/tanvirkabir47/" title="Linkedin" target="_blank"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/tanvirkabir48/" title="Linkedin" target="_blank"><FaLinkedin /></a>
                 </li>
                 <li>
                     <a href="https://github.com/tanvirkabir47" title="Github" target="_blank"><FaGithubSquare /></a>
