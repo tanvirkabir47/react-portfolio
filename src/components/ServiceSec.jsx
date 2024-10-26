@@ -46,7 +46,7 @@ const ServiceSec = () => {
                             </h2>
                             <ul>
                                 <li><FaAngleDoubleRight /> Python</li>
-                                <li><FaAngleDoubleRight /> Djanog</li>
+                                <li><FaAngleDoubleRight /> Django</li>
                                 <li><FaAngleDoubleRight /> Django REST framwork (DRF)</li>
                                 <li><FaAngleDoubleRight /> Sqlite, PostgreSQL (DB)</li>
                                 <li><FaAngleDoubleRight /> AWS (Cloud Management)</li>
