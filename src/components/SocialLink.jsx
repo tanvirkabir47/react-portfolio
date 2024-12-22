@@ -3,7 +3,7 @@ import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
 
 const SocialLink = () => {
     return (
-        <div className="social-links-com">
+        <div className="social-links-com hidden md:flex">
             <ul>
                 <li>
                     <a href="https://www.facebook.com/tanvirkabir47/" title="Facebook" target="_blank"><FaFacebookSquare /></a>
