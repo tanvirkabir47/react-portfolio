@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-import { useGetSingleProjecBySlugQuery } from "../../services/ProjectData";
+import { useGetSingleProjecBySlugQuery } from "../services/ProjectData";
 import { useEffect, useState } from "react";
-import SingleProjectHero from "../HeroComponents/SingleProjectHero";
-import CardSkeleton from "../CardSkeleton";
+import SingleProjectHero from "../components/HeroComponents/SingleProjectHero";
+import CardSkeleton from "../components/CardSkeleton";
 
 export default function SingleProject() {
     const { slug } = useParams();

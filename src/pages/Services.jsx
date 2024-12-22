@@ -1,5 +1,5 @@
-import ServiceHero from "../HeroComponents/ServiceHero";
-import ServiceSec from "../ServiceSec";
+import ServiceHero from "../components/HeroComponents/ServiceHero";
+import ServiceSec from "../components/ServiceSec";
 
 
 const Services = () => {

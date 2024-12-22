@@ -1,5 +1,5 @@
-import ProjectHero from "../HeroComponents/ProjectHero";
-import ProjectSec from "../ProjectSec";
+import ProjectHero from "../components/HeroComponents/ProjectHero";
+import ProjectSec from "../components/ProjectSec";
 
 const Project = () => {
     return (

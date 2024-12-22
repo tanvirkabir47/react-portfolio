@@ -1,5 +1,5 @@
-import ContactForm from "../ContactForm";
-import ContactHero from "../HeroComponents/ContactHero";
+import ContactForm from "../components/ContactForm";
+import ContactHero from "../components/HeroComponents/ContactHero";
 
 const ContactPage = () => {
     return (

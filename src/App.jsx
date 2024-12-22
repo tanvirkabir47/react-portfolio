@@ -1,17 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import Header from "./components/Header";
 import NotFound from "./components/NotFound";
 import About from './components/About';
 import BackToTop from "./components/BackToTop";
-import Services from "./components/pages/Services";
+import Services from "./pages/Services";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import SocialLink from "./components/SocialLink";
-import Skills from "./components/pages/Skills";
-import ContactPage from "./components/pages/ContactPage";
-import Project from "./components/pages/Project";
-import SingleProject from "./components/pages/SingleProject";
+import Blogs from "./pages/Blogs";
+import ContactPage from "./pages/ContactPage";
+import Project from "./pages/Project";
+import SingleProject from "./pages/SingleProject";
+import SingleBlog from "./pages/SingleBlog";
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
           <Route path="/project/:slug" element={<SingleProject />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services/>} />
-          <Route path="/skills" element={<Skills/>} />
+          <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/blog/:slug" element={<SingleBlog/>} />
           <Route path="/contact" element={<ContactPage/>} />
           <Route path="*" element={<NotFound />} />
       </Routes>
