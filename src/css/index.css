@@ -121,7 +121,7 @@ header.sticky{
 }
 
 .hero-section{
-    background-image: url(../src/assets/blog.jpg);
+    background-image: url(../assets/hero-bg.png);
     padding: 100px 0;
     padding-top: 200px;
     background-position: center;
@@ -130,7 +130,7 @@ header.sticky{
     position: relative;
 }
 .hero-section-not{
-    background-image: url(../src/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
@@ -144,7 +144,7 @@ header.sticky{
     margin-bottom: 20px;
 }
 .hero-section-service{
-    background-image: url(../src/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
@@ -153,7 +153,7 @@ header.sticky{
     position: relative;
 }
 .hero-section-contact{
-    background-image: url(../src/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;
@@ -162,7 +162,7 @@ header.sticky{
     position: relative;
 }
 .hero-section-about{
-    background-image: url(../src/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     padding: 200px 0;
     padding-top: 200px;
     background-position: center;

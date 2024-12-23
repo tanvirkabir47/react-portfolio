@@ -44,6 +44,7 @@ const SingleBlog = () => {
                                 <p>Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They automatically enforce and execute the terms of the contract when predefined conditions are met, eliminating the need for intermediaries and reducing the risk of disputes.</p>
 
                                 <p>Despite its potential, blockchain technology still faces challenges such as scalability, interoperability, and regulatory uncertainty. However, as blockchain continues to mature and evolve, its transformative impact on various industries is becoming increasingly evident.</p>
+                                
                             </div>
                         </div>
                     </div>
