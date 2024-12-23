@@ -590,11 +590,10 @@ header .menu-cl{
     border: 1px solid #ddd;
     max-width: 400px;
     transition: .4s;
-
-    &:hover{
-        transform: translateY(-5px);
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    }
+}
+.single-blog-card:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 .blog-card-cover{
     width: 100%;
@@ -606,10 +605,9 @@ header .menu-cl{
     border-radius: 6px;
     object-fit: cover;
     transition: all 0.4s;
-
-    &:hover{
-        transform: scale(1.1);
-    }
+}
+.single-blog-card img:hover{
+    transform: scale(1.1);
 }
 .single-blog-card .blog-card-body .catagory{
     background: var(--primary-color);
