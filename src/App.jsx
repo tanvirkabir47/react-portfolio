@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import NotFound from "./components/NotFound";
+// import NotFound from "./components/NotFound";
 import About from './components/About';
 import BackToTop from "./components/BackToTop";
 import Services from "./pages/Services";
@@ -29,7 +29,7 @@ function App() {
           <Route path="/blogs" element={<Blogs/>} />
           <Route path="/blog/:slug" element={<SingleBlog/>} />
           <Route path="/contact" element={<ContactPage/>} />
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
           
       
