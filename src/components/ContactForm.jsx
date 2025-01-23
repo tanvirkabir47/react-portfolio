@@ -75,7 +75,9 @@ const ContactForm = () => {
                             </div>
                             <div className="contact-detail">
                                 <h3>Website:</h3>
-                                <p>tanvirkabir47.netlify.app</p>
+                                <p>
+                                    <a href="https://tanvirkabir47.netlify.app">tanvirkabir47.netlify.app</a>
+                                </p>
                             </div>
                             <div className="contact-detail">
                                 <h3>Address:</h3>
@@ -88,8 +90,8 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="contact-details w-full md:w-3/5">
-                        <div className="contact-title bg-[--bg-color]">
-                            <div className="p-8">
+                        <div className="contact-title">
+                            <div className="p-8 bg-[--primary-color]">
                                 <p>|| Get In Touch</p>
                                 <h2>If you have any porject or need help, Contact me.</h2>
                             </div>
