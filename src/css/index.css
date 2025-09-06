@@ -204,10 +204,10 @@ header.sticky{
 }
 .banner-img img, .about-img img{
     border-radius: 18px;
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     width: 100%;
     max-width: 450px;
-    padding: 10px;
+    padding: 5px;
 }
 header .menu-cl{
     font-size: 25px;

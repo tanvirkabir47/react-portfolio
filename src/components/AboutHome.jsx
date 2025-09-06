@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import AboutImg from '../assets/about-img.png'
+// import AboutImg from '../assets/about-img.png'
+import AboutImgr from '../assets/about.jpeg'
 
 const AboutHome = () => {
     return (
@@ -9,7 +10,7 @@ const AboutHome = () => {
                 <div className="flex gap-10 items-center flex-col md:flex-row w-full">
                     <div className="md:w-1/2 w-full">
                         <div className="about-img flex md:justify-start justify-center">
-                            <img src={AboutImg} alt="" />
+                            <img src={AboutImgr} alt="" />
                         </div>
                     </div>
                     <div className="md:w-1/2 w-full about-text">
